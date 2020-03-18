@@ -3,8 +3,8 @@
 const Nexmo = require('nexmo');
 
 const nexmo = new Nexmo({
-  apiKey: '', //620b6131
-  apiSecret: '', //TvlV00YIt70941A2
+  apiKey: '', 
+  apiSecret: '', 
 });
 
 const from = 'Nexmo';

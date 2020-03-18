@@ -1,8 +1,8 @@
 'use strict'
 
 
-const accountSid = ''; //ACde3d2279c42e14c30ed1efcb8006152a
-const authToken = ''; //b4ce349a3cb1aa67577f0179bfe7c9f8
+const accountSid = ''; 
+const authToken = ''; 
 const client = require('twilio')(accountSid, authToken);
 
 client.messages

@@ -4,13 +4,13 @@ var mysql = require('mysql');
 var app = require('./app'); // se importa el modulo app al indexjs
 var port = 3800; // puerto del servidor
 
-var connection = mysql.createConnection({
+/*var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '40031412',
     database: 'nodeapi'
 })
-
+*/
 app.listen(port, () => {
   console.log("servidor corriendo en el puerto 3800");
 })

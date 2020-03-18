@@ -8,8 +8,8 @@ const nexmo = new Nexmo({
 });
 
 const from = 'Nexmo';
-const to = '50241186849';
-const text = 'Hugo sos bien Hueco';
+const to = '';
+const text = '';
 
 nexmo.message.sendSms(from, to, text, (err, responseData) => {
     if (err) {

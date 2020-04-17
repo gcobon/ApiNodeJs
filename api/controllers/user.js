@@ -153,7 +153,7 @@ function logIn(req, res) {
                 bcrypt.compare(data.password, user.datos[0].password, (err, check) => { // compara la password obtenida de la bd con la que da el cliente
                     if (check) {
 
-                        if (data.gettoken) {
+                        if (data.gettoken) { // el metodo gettoken se envia junto al email y password
                             //generar y devolver un token
                             return res.status(200).send({
                                 token: jwt.createToken(user.datos[0])

@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // cors
 
 // rutas
-app.use('/api', user_routes); // "app.user" permite hacer middlewares para que este se ejecute antes de llegar a la peticion del controlador
+app.use('/api', user_routes); // "app.use" permite hacer middlewares para que este se ejecute antes de llegar a la peticion del controlador
 
  // exportar
 module.exports = app;
